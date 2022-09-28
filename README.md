@@ -24,7 +24,7 @@
 
 # Get Started
 
-1. Clone this repository or download the latest [Release](#)
+1. Clone this repository or download the latest [Release](https://github.com/Harry260/WhatsApp-Plus/releases/tag/v1)
 2. Go to root directory
 3. Install dependencies
 

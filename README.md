@@ -92,6 +92,7 @@ You can create a button with the `!btn` command. If you skip any option, it will
 >
 > -   The button message is a brittle feature since it is based on a pull request!
 > -   You can only add up to 3 buttons, more buttons will be ignored
+> -   Button messages don't work with Group Chats. It just act weird.
 
 ##### Template
 

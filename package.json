@@ -1,0 +1,30 @@
+{
+    "name": "whatsapp-pro",
+    "version": "1.0.0",
+    "description": "Pro features lmao",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/harry260/whatsapp-pop.git"
+    },
+    "keywords": [
+        "whatsapp",
+        "pro"
+    ],
+    "author": "Harry",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/harry260/whatsapp-pop/issues"
+    },
+    "homepage": "https://github.com/harry260/whatsapp-pop#readme",
+    "dependencies": {
+        "dotenv": "^16.0.1",
+        "qrcode-terminal": "^0.12.0",
+        "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#fix-buttons-list",
+        "yargs-parser": "^21.1.1"
+    }
+}

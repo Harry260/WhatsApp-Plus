@@ -111,12 +111,12 @@ You can create a button with the `!btn` command. If you skip any option, it will
 
 ## Changing command Prefix
 
-The default command prefix is `!` eg. `!btn`. If you want to change it, you can create an Environment Variable `PREFIX` and give your desired prefix
+The default command prefix is `!` eg. `!btn`. If you want to change it, you can create an Environment Variable `CMD_PREFIX` and give your desired prefix
 
 eg. If you want `#` to be your prefix
 
 ```.env
-PREFIX=#
+CMD_PREFIX=#
 ```
 
 # 💪 Support

@@ -2,7 +2,7 @@ import wweb from "whatsapp-web.js";
 import { craftList, craftButton } from "./lib/commands.js";
 import QRcode from "qrcode-terminal";
 import "dotenv/config";
-const PREFIX = process.env.PREFIX || "!";
+const PREFIX = process.env.CMD_PREFIX || "!";
 
 const { Client, LocalAuth } = wweb;
 

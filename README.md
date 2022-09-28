@@ -2,7 +2,8 @@
 <img src="./images/logo.svg" width="400">
 
 </p>
-<p align="center">Whatsapp + Will give you two awesome features for your normal whatsapp! Give your whatsapp superpowers! Made with <a href="https://github.com/pedroslopez/whatsapp-web.js/">whatsapp-web.js</a></p>
+<p align="center">Whatsapp + Will give you two awesome features for your normal whatsapp! Give your whatsapp superpowers! Made with <a href="https://github.com/pedroslopez/whatsapp-web.js/">whatsapp-web.js</a><br>
+<img src="https://visitor-badge.glitch.me/badge?page_id=harry260.waplus"><br></p>
 
 > ⚠️ **DISCLAIMER**:
 >

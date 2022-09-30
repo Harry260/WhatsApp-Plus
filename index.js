@@ -34,21 +34,23 @@ async function handleMsg(msg) {
 		var mCommand = mBodySplit[0];
 		var mArg = mBody.includes(" ") ? mBodySplit.slice(1).join(" ") : false;
 
-		if (mCommand === PREFIX + "list") {
-			var obj = await craftList(mArg);
-			if (obj) {
-				client.sendMessage(chat.id._serialized, obj);
-				msg.delete(true);
-				msg.delete();
-			}
-		} else if (mCommand === PREFIX + "btn") {
-			var obj = await craftButton(mArg);
-			if (obj) {
-				client.sendMessage(chat.id._serialized, obj);
-				msg.delete(true);
-				msg.delete();
-			}
-		}
+		if (mArg)
+			if (msg)
+				if (mCommand === PREFIX + "list") {
+					var obj = await craftList(mArg);
+					if (obj) {
+						client.sendMessage(chat.id._serialized, obj);
+						msg.delete(true);
+						msg.delete();
+					}
+				} else if (mCommand === PREFIX + "btn") {
+					var obj = await craftButton(mArg);
+					if (obj) {
+						client.sendMessage(chat.id._serialized, obj);
+						msg.delete(true);
+						msg.delete();
+					}
+				}
 	}
 }
 

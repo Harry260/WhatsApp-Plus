@@ -1,4 +1,4 @@
 node_modules/
+.wwebjs_auth/
 test.js
-.wwebjs_auth
 .env

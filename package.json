@@ -1,7 +1,7 @@
 {
-    "name": "whatsapp-pro",
-    "version": "1.0.0",
-    "description": "Pro features lmao",
+    "name": "Whatsapp Plus",
+    "version": "1.6.9",
+    "description": "Send overpowered WhatsApp messages!",
     "main": "index.js",
     "type": "module",
     "scripts": {
@@ -9,18 +9,18 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/harry260/whatsapp-pop.git"
+        "url": "git+https://github.com/Harry260/WhatsApp-Plus.git"
     },
     "keywords": [
         "whatsapp",
         "pro"
     ],
-    "author": "Harry",
+    "author": "github/Harry260",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/harry260/whatsapp-pop/issues"
+        "url": "https://github.com/Harry260/WhatsApp-Plus/issues"
     },
-    "homepage": "https://github.com/harry260/whatsapp-pop#readme",
+    "homepage": "https://github.com/Harry260/WhatsApp-Plus#readme",
     "dependencies": {
         "dotenv": "^16.0.1",
         "qrcode-terminal": "^0.12.0",

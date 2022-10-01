@@ -2,7 +2,9 @@
 <img src="./images/logo.svg" width="400">
 
 </p>
-<p align="center">Whatsapp + Will give you two awesome features for your normal whatsapp! Give your whatsapp superpowers! Made with <a href="https://github.com/pedroslopez/whatsapp-web.js/">whatsapp-web.js</a><br>
+<p align="center">Whatsapp + Will give you two awesome features for your normal whatsapp! Give your whatsapp superpowers! Made with <a href="https://github.com/pedroslopez/whatsapp-web.js/">whatsapp-web.js</a>. You can Make create your message at <a href="https://waplus.netlify.app/" target="_blank">Message Maker GUI</a> if you feel lazy to type!
+<br>
+<br>
 <img src="https://visitor-badge.glitch.me/badge?page_id=harry260.waplus"><br></p>
 
 > ⚠️ **DISCLAIMER**:
@@ -47,6 +49,8 @@ node index.js
 
 Before You get started, refer this image to identify various elements of the message
 
+You can Make create your message at <a href="https://waplus.netlify.app/" target="_blank">Message Maker GUI</a> instead of typing the command.. if you feel lazy to type!
+
 ![DIAGRAM](./images/info.png)
 
 ## Making a list message
@@ -59,7 +63,7 @@ List message contain the following elements :
 -   Pop Text: The text in the pop-up of list items `--pop`
 -   Items : Various list items
 
-You can create a button with the `!list` command. If you skip any option, it will be set tu a default value! And if no items are provided, the message wont be created. If you want to add space to the item, use underscore `_`
+You can create a button with the `!list` command. If you skip any option, it will be set to a default value! And if no items are provided, the message wont be created. If you want to add space to the item, use underscore `_`
 
 ##### Template
 

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./style.css" type="text/css" />
+	</head>
+	<body class="c btn-mode" data-mode="btn">
+		<div class="header ch">
+			<div class="logo-wrap">
+				<a
+					href="https://github.com/Harry260/WhatsApp-Plus"
+					target="_blank"
+					><img
+						src="./images/logo.svg"
+						class="logo"
+						alt="Whatsapp Plus"
+				/></a>
+			</div>
+		</div>
+		<div class="btn-view c view">
+			<div class="msg-box-wrap">
+				<div class="msg-box">
+					<h1 class="msg-title" contenteditable="true">
+						Message Title
+					</h1>
+					<h5 class="msg-cap" contenteditable="true">
+						Probably this is the caption of the message!
+					</h5>
+					<span class="msg-sub m-p single-line" contenteditable="true"
+						>Available Options</span
+					>
+					<div class="btn-view-list list-open cp">Click here</div>
+				</div>
+
+				<div class="button-wrap cp">
+					<div class="m-btn msg-btn" data-id="0">
+						<span class="btn-text">Hello</span>
+						<span class="msg-add">Add Button</span>
+					</div>
+
+					<div class="m-btn msg-btn" data-id="1">
+						<span class="btn-text">Howdy</span>
+						<span class="msg-add">Add Button</span>
+					</div>
+
+					<div class="m-btn add-btn" data-id="3">
+						<span class="btn-text">Hello</span>
+						<span class="msg-add">Add Button</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="add-list-item c">
+			<div class="list-adder">
+				<div class="list-add-header cv">
+					<span class="list-close">✖</span>
+					<h1 class="single-line btn-msg cp" contenteditable="true">
+						Click Here!
+					</h1>
+				</div>
+				<div class="list-items">
+					<h3
+						class="pop-list msg-l-sub single-line"
+						contenteditable="true"
+					>
+						Available Options
+					</h3>
+					<div class="items-wrap">
+						<div class="list-item">Hello</div>
+						<div class="list-item">Howdy</div>
+						<div class="list-item">Hey</div>
+					</div>
+				</div>
+				<div class="send-btn btn-btm">Add item</div>
+			</div>
+		</div>
+
+		<div class="btn-section ch">
+			<div class="btn-btm toggle">
+				Make
+				<span class="btl cp">List</span>
+				<span class="btb cp">Button</span>
+			</div>
+			<div class="btn-btm cp" onclick="createMSG()">Copy</div>
+		</div>
+	</body>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+	<script src="./app.js"></script>
+</html>

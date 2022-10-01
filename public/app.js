@@ -76,7 +76,7 @@ function createMSG() {
 		}
 		btn_items.forEach((e) => {
 			if (e) {
-				result += " " + e.replace(/ /, "_");
+				result += " " + e.replace(/ /g, "_");
 			}
 		});
 	} else {
@@ -92,7 +92,7 @@ function createMSG() {
 			if (!text) {
 				return;
 			}
-			result = result + " " + text;
+			result = result + " " + text.replace(/ /g, "_");
 		});
 	}
 
